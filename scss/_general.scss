@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 10px;
+
+    @media screen and (max-width:430px){
+        margin: 0 auto;
+        padding: 0 10px;
+        max-width: 430px;
+    }
+
+    @media screen and (max-width:834px) {
+        margin: 0 auto;
+        padding: 0 50px;
+        max-width: 834px;
+    }
+
+    @media screen and (max-width:1024px) {
+        margin: 0 auto;
+        max-width: 1024px;
+    }
+}
+
